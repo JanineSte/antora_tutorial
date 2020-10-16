@@ -1,0 +1,156 @@
+= Kästchen und Kasten
+//Settings
+:source-language: asciidoc
+:idprefix:
+:idseperator: -
+
+== Erstellen eines Kastens
+
+Zur Erstellung eines Kastens wird das jeweilige Zeichen 4 Mal oberhalb und 4 Mal unterhalb des Textes beigefügt.
+
+.Beispiel
+[source]
+----
+.Kastenbeispiel
+====
+So einfach geht das.
+====
+----
+
+.Kastenbeispiel
+====
+So einfach geht das.
+====
+
+Es gibt verschiedene Arten von Kasten
+
+* Beispiel-Kasten
+* Source-Kasten
+* Einfache Kasten
+* Hinweis-Kasten
+* Sidebar-Kasten
+ 
+ 
+== Beispiel-Kasten
+
+Für diesen Kasten verwendet man das = (Gleich) Zeichen: ====
+Oder, für Texte die nicht unterbrochen werden, den Befehl [example] oberhalb des Textes einfügen.
+
+.Hier Beispiel für Example
+[source]
+----
+.Überschrift des Beispiels
+[example]
+Und hier dann das Beispiel.
+----
+
+.Überschrift des Beispiels
+[example]
+Und hier dann das Beispiel.
+
+
+== Source-Kasten
+
+Code kann mit farblich hervorgehobener Syntax der Sprache anzeigen werden.
+Dazu [source, _sprache_] vor dem Text angeben.
+
+.Beispiel für einen Source-Kasten mit Sprache
+[source]
+----
+[source,ruby]
+-----
+puts 'Hello, World!'
+-----
+----
+
+[source,ruby]
+----
+puts 'Hello, World!'
+----
+
+Mit :source-language: _sprache_ (bei Settings) kann die Sprache global gesetzt werden und muss nicht mehr jedes Mal extra angegeben werden.
+
+
+== Einfache Kasten
+ 
+Für diesen Kasten verwendet man das - (Minus) Zeichen.
+Dies bisherigen Beispiele waren darauf aufgebaut.
+
+== Hinweis-Kasten
+
+Bei den folgenden Befehlen werden automatisch graue Kästen mit der jeweiligen Überschrift (farblich unterlegt) erstellt.
+
+* Caution (Violett)
+* Tip (Grün)
+* Warning (Orange)
+* Important (Rot)
+* Note (Blau)
+
+Dazu einfach den jeweiligen Befehl am Anfang einer Zeile, gefolgt von einem Doppelpunkt : schreiben.
+Diekt dahiner kann nun der Text, welcher innerhalb des Kastens stehen soll, geschrieben werden.
+Der Kasten wird automatisch erstellt, also ohne ---- angeben zu müssen.
+
+.Hier ein Beispiel
+[source]
+----
+WARNING: Hier steht eine Warnung.
+
+NOTE: Hier eine Notiz.
+
+TIP: Und hier steht ein Tipp.
+
+IMPORTANT: Natürlich kann man auch hier Text _*`formatieren`*_ oder #markieren#.
+----
+
+.So sieht es dann aus
+====
+WARNING: Hier steht eine Warnung.
+
+NOTE: Hier eine Notiz.
+
+TIP: Und hier steht ein Tipp.
+
+IMPORTANT: Natürlich kann man auch hier Text _*`formatieren`*_ oder #markieren#.
+====
+
+=== Untertitel bei Hinweis.Kasten
+
+Leider geht das automatische Erstellen eines solchen Kastens verloren, wenn man einen Untertitel einfügen möchte.
+Diesen fügt man wie folgt ein:
+
+.Beispiel für Untertitel in einem Hinweis-Kasten
+[source]
+----
+[IMPORTANT]
+.Untertitel von Important
+====
+Und wiederum ein sinnfreier Text.
+====
+----
+
+[IMPORTANT]
+.Untertitel von Important
+====
+Und wiederum ein sinnfreier Text.
+====
+
+== Sidebar-Kasten
+
+Einen Sidebat-Block erstellt man mit *.
+
+.Wie immer hier ein Beispiel
+[source]
+----
+.Optionaler Titel
+****
+Hier kann nun Inhalt jeder Art sein (Text, Code, Bilder, usw.).
+****
+----
+
+.Optionaler Titel
+****
+Hier kann nun Inhalt jeder Art sein (Text, Code, Bilder, usw.).
+****
+
+Sidebars sind in einem dunkleren Grau als einfache Kästen oder auch Hinweis-Kästen.
+Zudem sind die Ecken abgerundet.

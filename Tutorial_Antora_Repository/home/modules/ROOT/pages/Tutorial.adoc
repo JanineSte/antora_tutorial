@@ -1,0 +1,12 @@
+= Tutorial
+// Settings
+:idprefix:
+:idsepar= Tutorial
+:idseperator: -
+
+== Aufbau der Ordner
+////
+	Component muss noch eingetragen werden
+////
+
+image::component:modules:images:file_system_order.png[]

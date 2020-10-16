@@ -1,0 +1,70 @@
+= Textformatierung
+// Settings
+:idprefix:
+:idseperator: -
+
+== Wie schreibt man *fett*?
+
+Mit * (Sternchen) vor und nach dem/den gewünschten Wort/Worten schreibt man fett/bold.
+Innerhalb eines Wortes müssen ** verwendet werden.
+
+.Hier ein Beispiel
+[source,asciidoc]
+----
+*Dieser Teil ist fett*, dieser aber nicht **ga**nz.
+----
+
+.Ergebnis
+====
+*Dieser Teil ist fett*, dieser aber nicht **ga**nz.
+====
+
+== Wie schreibt man _kursiv_?
+
+Mit einem _ (Unterstrich) vor und nach dem Text wird alles kursiv.
+Auch hier gilt: Innerhalb eines Wortes zweimal das Zeichen machen, also in diesem Fall __.
+
+.Beispiel
+[source,asciidoc]
+----
+_Dieser Teil ist kursiv_, dieser aber nicht __ga__nz.
+----
+
+.Ergebnis
+====
+_Dieser Teil ist kursiv_, dieser aber nicht __ga__nz.
+====
+
+== Wie schreibe ich mit grauem Hintergrund`?
+
+Für einen grauen Hintergrund verwendet man das ` Zeichen kbd:[Shift+´].
+Ebenso wie vorher, kann ein Wort teilweise akzentuiert werden mit ``.
+
+.Veranschaulichung
+[source,asciidoc]
+----
+`Dieser Teil ist grau unterlegt`, dieser aber nicht ``ga``nz.
+----
+
+.Ergebnis
+====
+`Dieser Teil ist grau unterlegt`, dieser aber nicht ``ga``nz.
+====
+
+== Wie markiere ich etwas gelb?
+
+Um etwas stark vorzuheben in gelb, setzt man ein # vor und hinter den gewünschten Teil.
+Für bestimmte Teile eines Wortes wiederum ## verwenden.
+
+.Auch hier ein Beispiel
+[source,asciidoc]
+----
+#Dieser Teil ist gelb markiert#, dieser aber nicht ##ga##nz.
+----
+
+.Ergebnis
+====
+#Dieser Teil ist gelb markiert#, dieser aber nicht ##ga##nz.
+====
+
+

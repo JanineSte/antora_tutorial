@@ -1,0 +1,13 @@
+site:
+	title: My Antora Tutorial
+	url: https://JanineSte.github.io/Antora_Tutorial
+	start_page: modules:pages:Tutorial.adoc
+content:
+	sources:
+	- url: https://git@github.com/JanineSte/antora_tutorial.git
+	branches: master
+	start_path: modules
+ui:
+  bundle:
+    url: https://git@github.com/JanineSte/antora_tutorial/ui-bundle.zip
+	snapshot: true
