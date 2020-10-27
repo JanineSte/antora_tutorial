@@ -1,5 +1,6 @@
 name: home
 title: Home
 version: master
+start_page: modules:ROOT:pages:Tutorial.adoc
 nav:
 - modules/ROOT/nav.adoc
