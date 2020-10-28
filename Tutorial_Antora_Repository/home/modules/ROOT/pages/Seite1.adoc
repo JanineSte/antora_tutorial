@@ -35,7 +35,7 @@ Genauso bei anderen Listen
 
 == 2. Ueberschrift
 
-TIP: Man kann Text auch *fett*, _kursiv_ oder mit `farblichem Hintergrund` schreiben.
+Man kann Text auch *fett*, _kursiv_ oder mit `farblichem Hintergrund` schreiben.
 
 [IMPORTANT]
 .Ein Eyecatcher
