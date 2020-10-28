@@ -12,9 +12,9 @@ Ueberschriften werden mit diesem UI-Bundle rechts aufgelistet.
 === Unterpunkte haben je ein = mehr
 
 Eine Liste selbst erstellen ist
-. einfach und
-. schnell
-. erledigt
+* einfach und
+* schnell
+* erledigt
 
 === Bis max. 5 x =
 
