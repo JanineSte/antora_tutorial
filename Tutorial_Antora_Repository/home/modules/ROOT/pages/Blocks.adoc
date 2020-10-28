@@ -34,7 +34,7 @@ Es gibt verschiedene Arten von Kasten
 == Beispiel-Kasten
 
 Fuer diesen Kasten verwendet man das = (Gleich) Zeichen: ====
-Oder, fuer Texte die nicht unterbrochen werden, den Befehl [example] oberhalb des Textes einf�gen.
+Oder, fuer Texte die nicht unterbrochen werden, den Befehl [example] oberhalb des Textes einfuegen.
 
 .Hier Beispiel fuer Example
 [source]
