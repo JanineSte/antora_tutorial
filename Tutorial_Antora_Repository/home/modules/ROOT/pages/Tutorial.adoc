@@ -33,4 +33,19 @@ Unterpunkte kann man wie folgt festlegen:
 
 == Antora.yml
 
-In dieser Datei 
+Zum Registrieren von Navigationsdateien verwendet man eine Antora.yml.
+Diese wird eine tiefer unterhalb des Playbook gespeichert.
+Daher muss auch der Pfad zu _nav.adoc_ angegeben werden.
+
+----
+name: home
+title: Hallo
+version: master
+start_page: Tutorial.adoc
+nav:
+- modules/ROOT/nav.adoc
+----
+
+== Das Playbook
+
+
