@@ -1,4 +1,4 @@
-= M�oeglichkeiten mit AsciiDoc
+= Moeglichkeiten mit AsciiDoc
 // Settings
 :idprefix:
 :idsepar= Titel von Seite 1
