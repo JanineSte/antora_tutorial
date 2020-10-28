@@ -14,7 +14,7 @@ Ueberschriften werden mit diesem UI-Bundle rechts aufgelistet.
 Eine Liste selbst erstellen ist
 
 * einfach und
-** schnell
+* schnell
 * erledigt
 
 === Bis max. 5 x =
@@ -53,9 +53,10 @@ NOTE: Wichtige Formatierungshilfen https://docs.antora.org/antora/2.3/asciidoc/t
 Und hier in einem extra Kasten nochmal etwas Text und eine sinnlose Auflistung:
 
 * Nur damit
-* Man mal
-* Gesehen hat
-* Wie es aussieht
+** Man mal
+*** Gesehen hat
+**** Wie es 
+***** aussieht
 ====
 
 == Wer es interaktiv mag
