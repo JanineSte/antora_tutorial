@@ -14,7 +14,7 @@ Ueberschriften werden mit diesem UI-Bundle rechts aufgelistet.
 Eine Liste selbst erstellen ist
 
 * einfach und
-* schnell
+** schnell
 * erledigt
 
 === Bis max. 5 x =
