@@ -1,5 +1,5 @@
 * xref:tutorial.adoc[Tutorial]
 * xref:seite1.adoc[Seite 1]
 * Textgestaltung
-** xref:schrift formatieren.adoc[Seite 2.A]
-** xref:blocks.adoc[Seite 2.B]
+** xref:blocks.adoc[Kasten]
+** xref:schrift formatieren.adoc[Schrift formatieren]
