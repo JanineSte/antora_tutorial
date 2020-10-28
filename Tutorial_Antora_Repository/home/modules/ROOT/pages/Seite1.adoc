@@ -20,7 +20,7 @@ Eine Liste selbst erstellen ist
 
 ==== Also bis max. 4 Stufen tiefer ...
 
-... kann man Unterpunkte erstellen
+...kann man Unterpunkte erstellen
 
 Genauso bei anderen Listen
 * Auch hier
