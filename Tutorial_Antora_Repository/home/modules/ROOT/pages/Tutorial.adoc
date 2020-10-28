@@ -48,4 +48,18 @@ nav:
 
 == Das Playbook
 
+Die wichtigsten Punkte die das Playbook beinhalten muss sind folgende:
+
+. site
+.. title
+.. url
+.. start_page
+. content
+.. source
+... url
+... branches
+... start_path
+. ui
+.. bundle
+... url
 
