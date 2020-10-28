@@ -102,15 +102,14 @@ TIP: Und hier steht ein Tipp.
 IMPORTANT: Natuerlich kann man auch hier Text _*`formatieren`*_ oder #markieren#.
 ----
 
-So sieht es dann aus
-
+.So sieht es dann aus
 WARNING: Hier steht eine Warnung.
 
 NOTE: Hier eine Notiz.
 
 TIP: Und hier steht ein Tipp.
 
-IMPORTANT: Natuerlich kann man auch hier Text *_`formatieren`_* oder #markieren#.
+IMPORTANT: Natuerlich kann man auch hier Text *_formatieren_* oder #markieren#.
 
 === Untertitel bei Hinweis-Kasten
 
