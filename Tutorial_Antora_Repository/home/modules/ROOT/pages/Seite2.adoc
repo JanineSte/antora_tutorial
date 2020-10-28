@@ -1,7 +1,7 @@
 = Moeglichkeiten mit AsciiDoc
 // Settings
 :idprefix:
-:idsepar= Titel von Seite 1
+:idsepar= Titel von Seite 2
 :idseperator: -
 
 == Ueberschrift
