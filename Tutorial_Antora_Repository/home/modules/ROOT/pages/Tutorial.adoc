@@ -16,7 +16,7 @@ Das wird in _nav.adoc_ festgelegt
 == Die _nav.adoc_ Datei
 
 In der _nav.adoc_ Datei legt man die Reihenfolge sowie Unterpunkte der Seiten fest.
-Dazu verwendet man wie bei einer Auflistung * gefolgt von einem Leerzeichen und *xref:*. Danach dem Namen der Datei eintragen und in eckigen Klammern [] die Ueberschrift die auf der Sitemap erscheinen soll.
+Dazu verwendet man wie bei einer Auflistung * gefolgt von einem Leerzeichen und *xref:*. Danach dem Namen der Datei eintragen und in eckigen Klammern [ ] die Ueberschrift die auf der Sitemap erscheinen soll.
 
 .Beispiel
 ----
