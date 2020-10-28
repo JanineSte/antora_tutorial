@@ -63,3 +63,8 @@ Die wichtigsten Punkte die das Playbook beinhalten muss sind folgende:
 .. bundle
 ... url
 
+Die Urls koennen sowohl auf lokale Dateien sowie Internetlinks weisen.
+
+[IMPORTANT]
+Wird eine lokale Adresse in der site.url angegeben funktionieren einige Funktionen wie z.B. die Sitemap nicht.
+
