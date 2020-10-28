@@ -6,17 +6,17 @@
 
 == Anordnung der Ordner
 
-In diesem beispiel sind die Ordner wie folgt angeordnet:
+In diesem Beispiel sind die Ordner wie folgt angeordnet:
 
 image:file_system_order.png[]
 
 Beim Ausfuehren des Playbooks werden die Dateien _Schirft formatieren.adoc_ und _Blocks.adoc_ zu Unterpunkten.
 Das wird in _nav.adoc_ festgelegt
 
-== Die _nav-adoc_ Datei
+== Die _nav.adoc_ Datei
 
 In der _nav.adoc_ Datei legt man die Reihenfolge sowie Unterpunkte der Seiten fest.
-Dazu verwendet man wie bei einer Auflistung * gefolgt von einem Leerzeichen und xref:. Danach dem Namen der Datei eintragen und in eckigen Klammern [] die Ueberschrift die auf der Sitemap erscheinen soll.
+Dazu verwendet man wie bei einer Auflistung * gefolgt von einem Leerzeichen und *xref:*. Danach dem Namen der Datei eintragen und in eckigen Klammern [] die Ueberschrift die auf der Sitemap erscheinen soll.
 
 .Beispiel
 ----
