@@ -9,4 +9,4 @@
 	Component muss noch eingetragen werden
 ////
 
-image::component:modules:images:file_system_order.png[]
+image:file_system_order.png[]
