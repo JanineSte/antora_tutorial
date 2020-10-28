@@ -23,14 +23,14 @@ Eine Liste selbst erstellen ist
 ...kann man Unterpunkte erstellen
 
 Genauso bei anderen Listen
-* Auch hier
-** kann man
-*** bis zu 
-**** vier Unterpunkte
-***** erstellen.
-**** Diese muessen
-*** natuerlich nicht
-** gleich aussehen.
+. Auch hier
+.. kann man
+... bis zu 
+.... vier Unterpunkte
+..... erstellen.
+.... Diese muessen
+.... natuerlich nicht
+.. gleich aussehen.
 
 == 2. Ueberschrift
 
