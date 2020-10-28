@@ -1,5 +1,5 @@
 * xref:tutorial.adoc[Grundlagen]
-* xref:seite1.adoc[Moeglichkeiten mit AsciiDocs]
+* xref:seite2.adoc[Moeglichkeiten mit AsciiDocs]
 * Textgestaltung
 ** xref:blocks.adoc[Kasten]
 ** xref:schrift formatieren.adoc[Schrift formatieren]
