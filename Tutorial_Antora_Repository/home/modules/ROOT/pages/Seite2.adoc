@@ -1,0 +1,74 @@
+= Moeglichkeiten mit AsciiDoc
+// Settings
+:idprefix:
+:idsepar= Titel von Seite 1
+:idseperator: -
+
+== Ueberschrift
+Hier steht nur Text. Ohne Schnickschnack und Sinn.
+Ueberschriften erstellt man mit == [Text].
+Ueberschriften werden mit diesem UI-Bundle rechts aufgelistet.
+
+=== Unterpunkte haben je ein = mehr
+
+Eine Liste selbst erstellen ist
+
+* einfach und
+* schnell
+* erledigt
+
+=== Bis max. 5 x =
+
+==== Also bis max. 4 Stufen tiefer ...
+
+...kann man Unterpunkte erstellen
+
+Genauso bei anderen Listen
+
+. Auch hier
+.. kann man
+... bis zu 
+.... vier Unterpunkte
+..... erstellen.
+.... Diese muessen
+.... natuerlich nicht
+.. gleich aussehen.
+
+== 2. Ueberschrift
+
+Man kann Text auch *fett*, _kursiv_ oder mit `farblichem Hintergrund` schreiben.
+
+[IMPORTANT]
+.Ein Eyecatcher
+Moechte man etwas ganz besonders hervorheben #kann man es auch gelb markieren#.
+
+NOTE: Wichtige Formatierungshilfen https://docs.antora.org/antora/2.3/asciidoc/text-and-punctuation/[hier]
+
+== Untertitel formatieren
+
+[NOTE]
+.Hier ein Untertitel
+
+====
+Und hier in einem extra Kasten nochmal etwas Text und eine sinnlose Auflistung:
+
+* Nur damit
+** Man mal
+*** Gesehen hat
+**** Wie es 
+***** aussieht
+====
+
+== Wer es interaktiv mag
+
+...kann sogar Checklisten erstellen:
+
+[%interactive]
+* [ ] Das habe ich gelesen
+* [ ] Und das habe ich angekreuzt
+
+== Kommentare in AsciiDocs
+
+Eine einfache Kommentarzeile beginnt mit //.
+Einen ganzen Kommentarblock beginnt und -endet man mit ////.
+Kommentare werden nach der Conventierung der AsciiDocs zu HTML nicht mehr angezeigt.
