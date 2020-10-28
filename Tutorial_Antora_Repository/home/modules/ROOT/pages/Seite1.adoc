@@ -1,13 +1,13 @@
-= Möglichkeiten mit AsciiDoc
+= Mï¿½oeglichkeiten mit AsciiDoc
 // Settings
 :idprefix:
 :idsepar= Titel von Seite 1
 :idseperator: -
 
-== Überschrift
-Hier steht bloß Text. Ohne Schnickschnack und Sinn.
-Überschriften werden auch gleichzeitig aufgelistet (rechts).
-Überschriften erstellt man mit == [Text]
+== Ueberschrift
+Hier steht nur Text. Ohne Schnickschnack und Sinn.
+Ueberschriften erstellt man mit == [Text].
+Ueberschriften werden mit diesem UI-Bundle rechts aufgelistet.
 
 === Unterpunkte haben je ein = mehr
 
@@ -28,11 +28,11 @@ Genauso bei anderen Listen
 *** bis zu 
 **** vier Unterpunkte
 ***** erstellen.
-**** Diese müssen
-*** natürlich nicht
+**** Diese muessen
+*** natuerlich nicht
 ** gleich aussehen.
 
-== 2. Überschrift
+== 2. Ueberschrift
 
 ----
 TIP: Man kann Text auch *fett*, _kursiv_ oder mit `farblichem Hintergrund` schreiben.
@@ -41,7 +41,7 @@ TIP: Man kann Text auch *fett*, _kursiv_ oder mit `farblichem Hintergrund` schre
 ====
 [IMPORTANT]
 .Ein Eyecatcher
-Möchte man etwas ganz besonders hervorheben #kann man es auch gelb markieren#.
+Moechte man etwas ganz besonders hervorheben #kann man es auch gelb markieren#.
 ====
 
 NOTE: Wichtige Formatierungshilfen https://docs.antora.org/antora/2.3/asciidoc/text-and-punctuation/[hier]
@@ -62,7 +62,7 @@ Und hier in einem extra Kasten nochmal etwas Text und eine sinnlose Auflistung:
 
 == Wer es interaktiv mag
 
-Man kann sogar Checklisten erstellen
+...kann sogar Checklisten erstellen:
 
 [%interactive]
 * [ ] Das habe ich gelesen

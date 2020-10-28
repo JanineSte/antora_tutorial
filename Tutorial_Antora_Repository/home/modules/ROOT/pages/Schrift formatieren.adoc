@@ -5,8 +5,8 @@
 
 == Wie schreibt man *fett*?
 
-Mit * (Sternchen) vor und nach dem/den gewünschten Wort/Worten schreibt man fett/bold.
-Innerhalb eines Wortes müssen ** verwendet werden.
+Mit * (Sternchen) vor und nach dem/den gewuenschten Wort/Worten schreibt man fett/bold.
+Innerhalb eines Wortes muessen ** verwendet werden.
 
 .Hier ein Beispiel
 [source,asciidoc]
@@ -35,9 +35,9 @@ _Dieser Teil ist kursiv_, dieser aber nicht __ga__nz.
 _Dieser Teil ist kursiv_, dieser aber nicht __ga__nz.
 ====
 
-== Wie schreibe ich mit grauem Hintergrund`?
+== Wie schreibe ich mit grauem Hintergrund?
 
-Für einen grauen Hintergrund verwendet man das ` Zeichen kbd:[Shift+´].
+Fuer einen grauen Hintergrund verwendet man das ` Zeichen.
 Ebenso wie vorher, kann ein Wort teilweise akzentuiert werden mit ``.
 
 .Veranschaulichung
@@ -53,8 +53,8 @@ Ebenso wie vorher, kann ein Wort teilweise akzentuiert werden mit ``.
 
 == Wie markiere ich etwas gelb?
 
-Um etwas stark vorzuheben in gelb, setzt man ein # vor und hinter den gewünschten Teil.
-Für bestimmte Teile eines Wortes wiederum ## verwenden.
+Um etwas stark vorzuheben in gelb, setzt man ein # vor und hinter den gewuenschten Teil.
+Fuer bestimmte Teile eines Wortes wiederum ## verwenden.
 
 .Auch hier ein Beispiel
 [source,asciidoc]

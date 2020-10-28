@@ -1,4 +1,4 @@
-= Kästchen und Kasten
+= Kasten (Blocks)
 //Settings
 :source-language: asciidoc
 :idprefix:
@@ -6,7 +6,7 @@
 
 == Erstellen eines Kastens
 
-Zur Erstellung eines Kastens wird das jeweilige Zeichen 4 Mal oberhalb und 4 Mal unterhalb des Textes beigefügt.
+Zur Erstellung eines Kastens wird das jeweilige Zeichen 4 Mal oberhalb und 4 Mal unterhalb des Textes beigefuegt.
 
 .Beispiel
 [source]
@@ -33,18 +33,18 @@ Es gibt verschiedene Arten von Kasten
  
 == Beispiel-Kasten
 
-Für diesen Kasten verwendet man das = (Gleich) Zeichen: ====
-Oder, für Texte die nicht unterbrochen werden, den Befehl [example] oberhalb des Textes einfügen.
+Fuer diesen Kasten verwendet man das = (Gleich) Zeichen: ====
+Oder, fuer Texte die nicht unterbrochen werden, den Befehl [example] oberhalb des Textes einfï¿½gen.
 
-.Hier Beispiel für Example
+.Hier Beispiel fuer Example
 [source]
 ----
-.Überschrift des Beispiels
+.Ueberschrift des Beispiels
 [example]
 Und hier dann das Beispiel.
 ----
 
-.Überschrift des Beispiels
+.Ueberschrift des Beispiels
 [example]
 Und hier dann das Beispiel.
 
@@ -54,7 +54,7 @@ Und hier dann das Beispiel.
 Code kann mit farblich hervorgehobener Syntax der Sprache anzeigen werden.
 Dazu [source, _sprache_] vor dem Text angeben.
 
-.Beispiel für einen Source-Kasten mit Sprache
+.Beispiel fuer einen Source-Kasten mit Sprache
 [source]
 ----
 [source,ruby]
@@ -73,22 +73,22 @@ Mit :source-language: _sprache_ (bei Settings) kann die Sprache global gesetzt w
 
 == Einfache Kasten
  
-Für diesen Kasten verwendet man das - (Minus) Zeichen.
+Fuer diesen Kasten verwendet man das - (Minus) Zeichen.
 Dies bisherigen Beispiele waren darauf aufgebaut.
 
 == Hinweis-Kasten
 
-Bei den folgenden Befehlen werden automatisch graue Kästen mit der jeweiligen Überschrift (farblich unterlegt) erstellt.
+Bei den folgenden Befehlen werden automatisch graue Kaesten mit der jeweiligen Ueberschrift (farblich unterlegt) erstellt.
 
 * Caution (Violett)
-* Tip (Grün)
+* Tip (Gruen)
 * Warning (Orange)
 * Important (Rot)
 * Note (Blau)
 
 Dazu einfach den jeweiligen Befehl am Anfang einer Zeile, gefolgt von einem Doppelpunkt : schreiben.
 Diekt dahiner kann nun der Text, welcher innerhalb des Kastens stehen soll, geschrieben werden.
-Der Kasten wird automatisch erstellt, also ohne ---- angeben zu müssen.
+Der Kasten wird automatisch erstellt, also ohne ---- angeben zu muessen.
 
 .Hier ein Beispiel
 [source]
@@ -99,7 +99,7 @@ NOTE: Hier eine Notiz.
 
 TIP: Und hier steht ein Tipp.
 
-IMPORTANT: Natürlich kann man auch hier Text _*`formatieren`*_ oder #markieren#.
+IMPORTANT: Natuerlich kann man auch hier Text _*`formatieren`*_ oder #markieren#.
 ----
 
 .So sieht es dann aus
@@ -110,15 +110,15 @@ NOTE: Hier eine Notiz.
 
 TIP: Und hier steht ein Tipp.
 
-IMPORTANT: Natürlich kann man auch hier Text _*`formatieren`*_ oder #markieren#.
+IMPORTANT: Natuerlich kann man auch hier Text *_`formatieren`_* oder #markieren#.
 ====
 
-=== Untertitel bei Hinweis.Kasten
+=== Untertitel bei Hinweis-Kasten
 
-Leider geht das automatische Erstellen eines solchen Kastens verloren, wenn man einen Untertitel einfügen möchte.
-Diesen fügt man wie folgt ein:
+Leider geht das automatische Erstellen eines solchen Kastens verloren, wenn man einen Untertitel einfuegen moechte.
+Diesen fuegt man wie folgt ein:
 
-.Beispiel für Untertitel in einem Hinweis-Kasten
+.Beispiel fuer Untertitel in einem Hinweis-Kasten
 [source]
 ----
 [IMPORTANT]
@@ -152,5 +152,5 @@ Hier kann nun Inhalt jeder Art sein (Text, Code, Bilder, usw.).
 Hier kann nun Inhalt jeder Art sein (Text, Code, Bilder, usw.).
 ****
 
-Sidebars sind in einem dunkleren Grau als einfache Kästen oder auch Hinweis-Kästen.
+Mit diesem UI-Bundle sind Sidebars in einem dunkleren Grau als einfache Kasten oder auch Hinweis-Kasten.
 Zudem sind die Ecken abgerundet.
