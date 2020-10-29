@@ -63,9 +63,27 @@ Die wichtigsten Punkte die das Playbook beinhalten muss sind folgende:
 .. bundle
 ... url
 
-Die Urls koennen sowohl auf lokale Dateien sowie Internetlinks weisen.
+[TIP]
+Ich empfehle die Beispiele von dieser Seite zu kopieren und nur die jeweiligen Attribute auszufüllen. Die in https://docs.antora.org/antora/2.3/playbook/set-up-playbook/[Antora Docs] aufgefuehrte Vorgehensweise kann zu Fehlern führen.
+
+Alle URLs koennen sowohl auf lokale Dateien sowie Internetlinks (Github, Gitlab, etc.) weisen.
+
+=== Site
+
+Mittel title: der Seite einen Namen geben.
 
 [IMPORTANT]
-Wird eine lokale Adresse in der site.url angegeben funktionieren einige Funktionen wie z.B. die Sitemap nicht.
+Die URL muss nicht zwingend existieren, es empfiehlt sich aber, da sonst einige Funktionen verloren gehen.
 
-xref:Tutorial.adoc#.Beispiel[Playbook]
+Als start_page wird in diesem Fall _Tutorial.adoc_ verwendet.
+
+.site-Beispiel
+----
+site:
+  title: Antora Tutorial
+  url: https://github.com/JanineSte/antora_tutorial.git 
+  start_page: home::Tutorial.adoc 
+----
+
+=== Content
+
