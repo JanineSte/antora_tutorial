@@ -68,3 +68,4 @@ Die Urls koennen sowohl auf lokale Dateien sowie Internetlinks weisen.
 [IMPORTANT]
 Wird eine lokale Adresse in der site.url angegeben funktionieren einige Funktionen wie z.B. die Sitemap nicht.
 
+xref:Tutorial.adoc#Das Playbook[Playbook]
