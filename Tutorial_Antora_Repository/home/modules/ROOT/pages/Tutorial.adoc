@@ -53,12 +53,9 @@ Die wichtigsten Punkte die das Playbook beinhalten muss sind folgende:
 . site
 .. title
 .. url
-.. start_page
 . content
 .. source
 ... url
-... branches
-... start_path
 . ui
 .. bundle
 ... url
@@ -70,7 +67,7 @@ Alle URLs koennen sowohl auf lokale Dateien sowie Internetlinks (Github, Gitlab,
 
 === Site
 
-Mittel title: der Seite einen Namen geben.
+Mittels title der Seite einen Namen geben.
 
 [IMPORTANT]
 Die URL muss nicht zwingend existieren, es empfiehlt sich aber, da sonst einige Funktionen verloren gehen.
@@ -87,3 +84,27 @@ site:
 
 === Content
 
+Es koennen auch mehrer Repositorys angegeben werden. Es empfiehlt sich die entsprechenden branches und strat_path anzugeben.
+
+.content-Beispiel
+----
+content:
+  sources:
+  - url: https://github.com/JanineSte/antora_tutorial.git
+    branches: main
+    start_path: Tutorial_Antora_Repository/home
+----
+
+=== UI
+
+In diesem Fall wurde das UI-Bundle des Beispiels von Antora Docs verwendet.
+Selbstverstaendlich kann auch jedes Andere oder auch ein Eigenes angewandt werden.
+Dafuer einfach den einen entsprechenden ZIP-Ordner verlinken.
+
+.ui-Beispiel
+----
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+----
