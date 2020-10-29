@@ -108,3 +108,14 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
 ----
+
+== Beispiel starten
+
+Um das Beispiel zu starten einen Ornder mit der _antora-playbook.yml_ erstellen. Beispiele in die Datei kopieren.
+Nun im Terminal zum Ordner navigieren und folgendes eingeben
+
+----
+$ antora --clean --fetch antora-playbook.yml
+----
+
+Im Ordner _build_ befinden sich nun die _.adoc_ Dateien als HTML-Seiten.
