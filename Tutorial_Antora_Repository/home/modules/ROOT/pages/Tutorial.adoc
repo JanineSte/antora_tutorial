@@ -33,7 +33,7 @@ Unterpunkte kann man wie folgt festlegen:
 
 == Antora.yml
 
-Zum Registrieren von Navigationsdateien verwendet man eine Antora.yml.
+Zum Registrieren von Navigationsdateien verwendet man eine _antora.yml_.
 Diese wird eine tiefer unterhalb des Playbook gespeichert.
 Daher muss auch der Pfad zu _nav.adoc_ angegeben werden.
 
@@ -61,18 +61,18 @@ Die wichtigsten Punkte die das Playbook beinhalten muss sind folgende:
 ... url
 
 [TIP]
-Ich empfehle die Beispiele von dieser Seite zu kopieren und nur die jeweiligen Attribute auszufüllen. Die in https://docs.antora.org/antora/2.3/playbook/set-up-playbook/[Antora Docs] aufgefuehrte Vorgehensweise kann zu Fehlern führen.
+Ich empfehle die Beispiele von dieser Seite zu kopieren und nur die jeweiligen Attribute auszufuellen. Die in https://docs.antora.org/antora/2.3/playbook/set-up-playbook/[Antora Docs] aufgefuehrte Vorgehensweise kann zu Fehlern fuehren.
 
 Alle URLs koennen sowohl auf lokale Dateien sowie Internetlinks (Github, Gitlab, etc.) weisen.
 
 === Site
 
-Mittels title der Seite einen Namen geben.
+Mittels _title_ der Seite einen Namen geben.
 
 [IMPORTANT]
 Die URL muss nicht zwingend existieren, es empfiehlt sich aber, da sonst einige Funktionen verloren gehen.
 
-Als start_page wird in diesem Fall _Tutorial.adoc_ verwendet.
+Als _start_page_ wird in diesem Fall _Tutorial.adoc_ verwendet.
 
 .site-Beispiel
 ----
@@ -84,7 +84,7 @@ site:
 
 === Content
 
-Es koennen auch mehrer Repositorys angegeben werden. Es empfiehlt sich die entsprechenden branches und strat_path anzugeben.
+Es koennen auch mehrer Repositorys angegeben werden. Es empfiehlt sich die entsprechenden _branches_ und _start_path_ anzugeben.
 
 .content-Beispiel
 ----
